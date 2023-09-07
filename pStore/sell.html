@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P-Store</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="Stylesheet" href="coloring.css"> 
+</head>
+<body class="Sell">
+
+    <nav>
+
+        <ul class="s_topnav">
+            <li>
+            <a href="index.html#electronics">
+                <img src="p_store.jpg"  alt="P-Store" height="25px" width="25px" margin="2px" >
+            </a></li>
+            <!-- <li><img src="p_store.jpg" alt="P-Store" height="40px" width="40px" margin="5px"  href="https://www.bing.com/"> 
+                
+            </li> -->
+            <!-- <li><a href="#home">Home</a></li> -->
+            <li><a href="#electronics">Electronics</a>
+                <ul class="s_subnav">
+                    <li><a href="phone-image.html">Phones</a></li>
+                    <li><a href="laptop-image.html">Laptops</a></li>
+                    <li><a href="tv-image.html">TV</a></li>
+                </ul>
+            </li>
+            <li><a href="clothing.html">Clothing</a></li>
+            <li><a href="contacts.html">Contact Us</a></li>
+            <li><a href="sell.html">+Sell</a></li>
+            <li class="s_topnav-right"><a href="#sign in">Sign In</a></li>
+            <!-- <li class="topnav-right"><a href="signup.html">Sign Up</a></li> -->
+        </ul>
+
+    </nav>
+
+
+
+
+    <header>
+        <h1>P-Store</h1>
+    </header>
+    <main>
+        <section class="ad-form">
+            <h2>Post an Ad</h2>
+            <form id="adForm">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+
+                <label for="price">Price:</label>
+                <input type="number" id="price" name="price" required>
+
+                <label for="contact">Contact Information:</label>
+                <input type="text" id="contact" name="contact" required>
+
+                <button type="submit">Submit Ad</button>
+            </form>
+        </section>
+
+        <section class="ad-listings">
+            <h2>Recent Listings</h2>
+            <ul id="adList"></ul>
+        </section>
+    </main>
+
+    <script src="sell.js"> </script>
+
+    <footer>
+        <div class="footer0"><h1>P-Store</h1></div>
+        <div class="footer1">Connect with us:</div>
+        <div class="SocialMedia">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin-square"></i></a>
+    
+        </div>
+        <div class="footer2">
+            <div class="product">
+                <div class="heading">Products</div>
+                <div class="div">Sell your products</div>
+                <div class="div">Advertise</div>
+                <div class="div">Pricing</div>
+                <div class="div">Product Business</div>
+            </div>
+            <div class="services">
+                <div class="heading">Services</div>
+                <div class="div">Return</div>
+                <div class="div">Cash Back</div>
+                <div class="div">Affiliate Marketing</div>
+                <div class="div">Others</div>
+            </div>
+            <div class="Company">
+                <div class="heading">Company</div>
+                <div class="div">Complaint</div>
+                <div class="div">Careers</div>
+                <div class="div">Affiliate Marketing</div>
+                <div class="div">Support</div>
+            </div>
+            <div class="Get Help">
+                <div class="heading">Get Help</div>
+                <div class="div">Help </div>
+                <div class="div">Privacy Policy</div>
+                <div class="div">Terms</div>
+                <div class="div">Login</div>
+            </div>
+        </div>
+        <div class="footer3">Copyrights <a href="#"><i class="fa fa-copyright"></i></a><br><h4>P-Store
+        2000 </h4>    
+    </footer>
+
+</body>
+</html>

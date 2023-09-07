@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> P Store </title>
+    <link rel="Stylesheet" href="styles.css">
+    <link rel="Stylesheet" href="styles1.css"> 
+    <link rel="Stylesheet" href="coloring.css"> 
+</head>
+
+<body>
+    <nav>
+        <ul class="topnav">
+            <li>
+            <a href="index.html#electronics">
+                <img src="p_store.jpg"  alt="P-Store" height="30px" width="30px" margin="2px" >
+            </a></li>
+            <!-- <li><img src="p_store.jpg" alt="P-Store" height="40px" width="40px" margin="5px"  href="https://www.bing.com/"> 
+                
+            </li> -->
+            <li><a href="#home">Home</a></li>
+            <li><a href="#electronics">Electronics</a>
+                <ul class="subnav">
+                    <li><a href="phone-image.html">Phones</a></li>
+                    <li><a href="laptop-image.html">Laptops</a></li>
+                    <li><a href="tv-image.html">TV</a></li>
+                </ul>
+            </li>
+            <li><a href="clothing.html">Clothing</a></li>
+            <li><a href="contacts.html">Contact Us</a></li>
+            <li><a href="sell.html">+Sell</a></li>
+            <li class="topnav-right"><a href="#sign in">Sign In</a></li>
+            <li class="topnav-right"><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
+
+<!-- #################################################################################################### -->
+
+<div class="top">
+    <div class="top-image">
+        <img class="mySlides" src="World-of-warcraft-battle.jpg" alt="World of Warcraft">
+        <img class="mySlides" src="Levi-ackerman.jpg" alt="Levi Ackerman">
+        <img class="mySlides" src="Sharingan-red-eyes.jpg" alt="Sharingan">
+        <img class="mySlides" src="Howl-moving-castle.jpg" alt="Castle">
+        <img class="mySlides" src="Son-goku.jpg" alt="Son Goku"> 
+    </div>
+    <div class="top-content">
+        <h1>Welcome to P Store</h1>
+        <p>Your one-stop destination for best Products.</p>
+        <a href="#featured-products" class="btn">Explore Products</a>
+    </div>
+</div>
+
+
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+
+<!-- ################################### Cards ######################################################### -->
+
+<div class="container1">
+    <div class="card">
+        <img src="Lenovo_Legion_Laptop.jpg" alt="Laptop">
+        <h2>Laptops</h2>
+        <p>Explore a wide range of laptops for all your computing needs.</p>
+        <a href="laptop-image.html">Shop Now</a>
+    </div>
+    
+    <div class="card">
+        <img src="MI 11X.jpg" alt="Men's Clothes">
+        <h2>Smart Phones</h2>
+        <p>Discover the latest phones.</p>
+        <a href="phone-image.html">Shop Now</a>
+    </div>
+</div>
+
+<script src="cards.js"></script>
+
+<!-- #################################################################################################### -->
+
+    <div class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="Lenovo_Legion_Laptop.jpg" alt="Lenovo Legion Laptop">
+            <h3>Lenovo Legion Laptop</h3>
+            <p> Compete with the Legion 5 Gen 6 (15, AMD).
+                Its armed with everything you need to dominate any lobby, including up to AMD Ryzen™ 7 5800H 
+                mobile processors and NVIDIA® GeForce RTX™ 30 series graphics.
+                Enjoy crisp visuals on a 39.6cms (15) FHD display, featuring amazing color accuracy and Dolby 
+                Vision™, while Nahimic 3D audio and the Legion Truestrike keyboard help you strike with pinpoint 
+                precision.</p>
+            <span class="price">Rs 86,490</span>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="Samsung Galaxy A34 5G.jpg" alt="Samsung Galaxy Phone">
+            <h3>Samsung Galaxy Phone</h3>
+            <p> 8 GB RAM | 256 GB ROM | Expandable Upto 1 TB
+                16.76 cm (6.6 inch) Full HD+ Display
+                48MP + 8MP + 5MP | 13MP Front Camera
+                5000 mAh Li-ion Battery Battery
+                Dimensity 1080, Octa Core Processor
+            </p>
+            <span class="price">Rs 32,999</span>
+            <button>Add to Cart</button>
+        </div>
+
+        <footer>
+            <div class="footer0"><h1>P-Store</h1></div>
+            <div class="footer1">Connect with us:</div>
+            <div class="SocialMedia">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin-square"></i></a>
+        
+            </div>
+            <div class="footer2">
+                <div class="product">
+                    <div class="heading">Products</div>
+                    <div class="div">Sell your products</div>
+                    <div class="div">Advertise</div>
+                    <div class="div">Pricing</div>
+                    <div class="div">Product Business</div>
+                </div>
+                <div class="services">
+                    <div class="heading">Services</div>
+                    <div class="div">Return</div>
+                    <div class="div">Cash Back</div>
+                    <div class="div">Affiliate Marketing</div>
+                    <div class="div">Others</div>
+                </div>
+                <div class="Company">
+                    <div class="heading">Company</div>
+                    <div class="div">Complaint</div>
+                    <div class="div">Careers</div>
+                    <div class="div">Affiliate Marketing</div>
+                    <div class="div">Support</div>
+                </div>
+                <div class="Get Help">
+                    <div class="heading">Get Help</div>
+                    <div class="div">Help </div>
+                    <div class="div">Privacy Policy</div>
+                    <div class="div">Terms</div>
+                    <div class="div">Login</div>
+                </div>
+            </div>
+            <div class="footer3">Copyrights <a href="#"><i class="fa fa-copyright"></i></a><br><h4>P-Store
+            2000 </h4>    
+        </footer>
+    
+
+</body>
+
+</html>
